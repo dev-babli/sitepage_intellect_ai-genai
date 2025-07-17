@@ -1,15 +1,22 @@
 {
+  "name": "sitepage-intellect-ai-genai",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "bootstrap": "^5.3.7",
     "framer-motion": "^12.23.6",
     "gsap": "^3.13.0",
     "react-awesome-reveal": "^4.3.1",
-    "react-dom": "^18.3.1",
+    "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
     "reactstrap": "^9.2.3"
-  },
-  "scripts": {
-    "start": "react-scripts start"
   },
   "browserslist": {
     "production": [
@@ -22,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
